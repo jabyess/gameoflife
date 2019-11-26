@@ -19,7 +19,7 @@ func runGame() {
 	matrix = initMatrix(matrix)
 
 	for {
-		time.Sleep(1 * time.Second)
+		time.Sleep(200 * time.Millisecond)
 		render(matrix)
 		//testRender(matrix)
 		matrix = updateState(matrix)
